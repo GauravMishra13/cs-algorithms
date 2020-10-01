@@ -18,7 +18,7 @@ const long double CMP = 0.000001;
 const long double PI = 3.141593;
 //We can't make non-typed stack, but we should save our operands in the same stack? as numbers, so we need to have the constants, that will be meaning the operands
 
-
+// here we intialise the structure with stack
 struct Stack{
     long double info; // Any type you need
     Stack *next;
